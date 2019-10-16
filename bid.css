@@ -1,0 +1,41 @@
+textarea {
+    font-weight: bold !important;
+    font-size: 18px !important;
+    font-family: Georgia !important;
+}
+span.NativeElement span {
+    font-size: 15px;
+}
+
+div.checked-result span{
+    font-size: 15px;
+    border: 1px solid #1073cb;
+    border-radius: 5px 5px 5px 5px;
+    padding: 2px;
+    font-family: Georgia !important;
+}
+div.checked-result{
+    margin-top: 10px;
+}
+
+.BidProposal-footer-action{
+    margin-right: auto;
+}
+
+div#toast-notifications-wrapper, app-toast-container, #upsell-banners-anchor, .Footer-section, .bid-next-project, fl-bit.NavigationItem.NavigationItem--postProject > fl-button, fl-bit.UserCard-details > fl-text > div, #upsell-banners-anchor, div.search-filter-wrapper, div.project-brief-cta, a#add-milestone-proposal, div#proposal-slider, .fl-banner.fl-banner-compact.inline-bids-bid-ranking-guide-banner.PageFreelancerPvp-banner.FeatureFlag-community{
+    display: none;
+}
+div.ps-content > app-thread-set:nth-child(2) > fl-list > fl-list-item > fl-bit > fl-bit > fl-bit.BitsListItemBody.BodyEdgeToEdge{
+    height: 125px;
+    overflow-x: auto;
+    text-align: justify;
+}
+app-message-list, fl-bit.ChatBox, app-messaging-contacts.IsCompact, div.ps-content > app-thread-set:nth-child(3) > fl-list > fl-list-item > fl-bit > fl-bit > fl-bit.BitsListItemHeader.OuterPadding.First.Last{
+    border: solid 1px #1073cb!important;
+}
+#search-results > ul > li{
+    border-top: solid 1px #1073cb!important;
+}
+app-messaging-contacts.ThreadlistSidebar.IsInbox {
+    min-width: 200px;
+}
